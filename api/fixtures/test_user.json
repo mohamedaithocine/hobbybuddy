@@ -1,0 +1,432 @@
+[
+    {
+        "model": "api.user",
+        "pk": 1,
+        "fields": {
+            "email": "user@example.com",
+            "username": "userusername",
+            "first_name": "John",
+            "last_name": "Doe",
+            "password": "pbkdf2_sha256$870000$SfTFoDn8i48QC6NkfLarOh$0CsPIOiAUmaIQk4PCeUC2WgjCOUciipujWhO8/ahCSQ=",
+            "date_of_birth": "1980-05-05",
+            "hobbies": ["1", "3", "7"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 2,
+        "fields": {
+            "email": "user2@example.com",
+            "username": "seconduser",
+            "first_name": "Alice",
+            "last_name": "Smith",
+            "password": "pbkdf2_sha256$870000$lPPn9uhCGpRmpMsGH2uvfI$rdlXY7aXi+BQmoPy9g/lHoZBhgxrxwWzxh/Lq5Wim+I=",
+            "date_of_birth": "1981-05-05",
+            "hobbies": ["1", "2", "3", "4", "6"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 3,
+        "fields": {
+            "email": "user3@example.com",
+            "username": "thirduser",
+            "first_name": "Bob",
+            "last_name": "Brown",
+            "password": "pbkdf2_sha256$870000$LVxFxJ4zHrj2CVEfKvotU2$dftBCk1wgWcCZOwENl0ZSfq5bDGCfNVxwpCr5CAo0ac=",
+            "date_of_birth": "1982-05-05",
+            "hobbies": ["5", "9"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 4,
+        "fields": {
+            "email": "user4@example.com",
+            "username": "fourthuser",
+            "first_name": "Charlie",
+            "last_name": "Davis",
+            "password": "pbkdf2_sha256$870000$3Gbau2mzLcjxcHRj894RQ0$Bkrb5bE3o8RpjX+gr9L5iJsrfhgm5cicdKXpvCmDI6k=",
+            "date_of_birth": "1983-05-05",
+            "hobbies": ["2", "4", "5", "6", "7", "8"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 5,
+        "fields": {
+            "email": "user5@example.com",
+            "username": "fifthuser",
+            "first_name": "Eve",
+            "last_name": "Evans",
+            "password": "pbkdf2_sha256$870000$Cs2ZRShkUKvLq0X0qw3GAw$A/Ik/Zbc7LBM6oF5MUr2FCjSGfSxrLYQLdonGzjMmic=",
+            "date_of_birth": "1984-05-05",
+            "hobbies": ["1"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 6,
+        "fields": {
+            "email": "user6@example.com",
+            "username": "sixthuser",
+            "first_name": "Fiona",
+            "last_name": "Foster",
+            "password": "pbkdf2_sha256$870000$CojkQkjhqOLstplS4kbIX1$cY4arRV3NPeDitp+tWdSoFhOfw5hyYkk0+0RHaPLWxA=",
+            "date_of_birth": "1985-05-05",
+            "hobbies": ["4", "6"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 7,
+        "fields": {
+            "email": "user7@example.com",
+            "username": "seventhuser",
+            "first_name": "George",
+            "last_name": "Gates",
+            "password": "pbkdf2_sha256$870000$u7J87L8eM9caOQeDzbPDyV$U8lilYqTfAIvwDCA97EsMXdDawXsi1yhcsdtXTF4Huk=",
+            "date_of_birth": "1986-05-05",
+            "hobbies": ["3", "4", "7", "8"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 8,
+        "fields": {
+            "email": "user8@example.com",
+            "username": "eighthuser",
+            "first_name": "Hannah",
+            "last_name": "Hunt",
+            "password": "pbkdf2_sha256$870000$vP2qcDrQGOcsRw4qy8e0pF$jqwETJcfSvGncaVy/OU14nnnod1ZZ2MmJXV90VUQ2V4=",
+            "date_of_birth": "1987-05-05",
+            "hobbies": ["1", "2", "5", "8", "9"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 9,
+        "fields": {
+            "email": "user9@example.com",
+            "username": "ninthuser",
+            "first_name": "Ivan",
+            "last_name": "Ivers",
+            "password": "pbkdf2_sha256$870000$kkY0NOpcyQRTOvXSw3IrYq$SSDiaPP5NYmMHE9WMB8BbsA9Dilf4xUwr0FMFqy3Ods=",
+            "date_of_birth": "1988-05-05",
+            "hobbies": ["2", "7", "8", "9"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 10,
+        "fields": {
+            "email": "user10@example.com",
+            "username": "tenthuser",
+            "first_name": "Julia",
+            "last_name": "Joyce",
+            "password": "pbkdf2_sha256$870000$erIoFFin43YUbZZ90qkmLh$6yUpgZdQp/mKSHTvr2Ol6dJhDMYje6H2Emkx/UAsFbM=",
+            "date_of_birth": "1989-05-05",
+            "hobbies": ["1", "2", "4", "5", "7"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 11,
+        "fields": {
+            "email": "user11@example.com",
+            "username": "eleventhuser",
+            "first_name": "Kevin",
+            "last_name": "Knox",
+            "password": "pbkdf2_sha256$870000$Zjip3KPwe6QKW5uzto93Vp$NZvRu31nbUrXTfCEOt9MfO9filrXKIW+6b/4Ux7Mvbg=",
+            "date_of_birth": "1990-05-05",
+            "hobbies": ["3", "6", "9"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 12,
+        "fields": {
+            "email": "user12@example.com",
+            "username": "twelfthuser",
+            "first_name": "Lara",
+            "last_name": "Lane",
+            "password": "pbkdf2_sha256$870000$drbDR0WD2LabzyS8g3mNFh$ifaUpMcdYxtZKO0c6h6VdDWaTBkPa5/d3C7f2FF+ZT0=",
+            "date_of_birth": "1991-05-05",
+            "hobbies": ["1", "4", "5", "6", "8"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 13,
+        "fields": {
+            "email": "user13@example.com",
+            "username": "thirteenthuser",
+            "first_name": "Molly",
+            "last_name": "Moore",
+            "password": "pbkdf2_sha256$870000$yV6A0aiDtdF62ejKKlu4te$uNhEm4nySTw1XJ4ShdLkyAA8mImUAS99ZLq6eI8vLxw=",
+            "date_of_birth": "1992-05-05",
+            "hobbies": ["2", "6", "8"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 14,
+        "fields": {
+            "email": "user14@example.com",
+            "username": "fourteenthuser",
+            "first_name": "Nathan",
+            "last_name": "Nash",
+            "password": "pbkdf2_sha256$870000$HKuQSqZuio581oD5V3LEwW$+XObUSeeFH2kFGvwei2SK9d1+IMYsZYzrKOUeXUhh4k=",
+            "date_of_birth": "1993-05-05",
+            "hobbies": ["2", "3", "5"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 15,
+        "fields": {
+            "email": "user15@example.com",
+            "username": "fifteenthuser",
+            "first_name": "Olivia",
+            "last_name": "Olsen",
+            "password": "pbkdf2_sha256$870000$15tWeJr7Boel0lx49A38j3$iAhPbMRv9tkliKZCYmpqsiEmtNE4/r5Na1kL9JbZ42s=",
+            "date_of_birth": "1994-05-05",
+            "hobbies": ["1", "3", "6", "7", "9"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 16,
+        "fields": {
+            "email": "user16@example.com",
+            "username": "sixteenthuser",
+            "first_name": "Peter",
+            "last_name": "Parker",
+            "password": "pbkdf2_sha256$870000$uRc3z4P1eoQ3I4SQqXHHBX$MfSU4sQUS+IUKgU9bWgV62Z3ngj7/lX7u7LYSaIHTMk=",
+            "date_of_birth": "1995-05-05",
+            "hobbies": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 17,
+        "fields": {
+            "email": "user17@example.com",
+            "username": "seventeenthuser",
+            "first_name": "Quincy",
+            "last_name": "Quinn",
+            "password": "pbkdf2_sha256$870000$2XVabl0elFjupQIzVUycKL$DNlu1FX12pj9N/LHps4T1cdqiZA2/rbhgLisem/PymY=",
+            "date_of_birth": "1996-05-05",
+            "hobbies": ["4"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 18,
+        "fields": {
+            "email": "user18@example.com",
+            "username": "eighteenthuser",
+            "first_name": "Rachel",
+            "last_name": "Ross",
+            "password": "pbkdf2_sha256$870000$8Ii4M6LDgnGbRbKatMzyBY$XVHz+OmaMmuK83D7vrg1TDfVDJAsT1yFjXeXWl4x7sE=",
+            "date_of_birth": "1997-05-05",
+            "hobbies": ["1", "2", "3", "5", "8"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 19,
+        "fields": {
+            "email": "user19@example.com",
+            "username": "nineteenthuser",
+            "first_name": "Steve",
+            "last_name": "Stark",
+            "password": "pbkdf2_sha256$870000$vyDaF2n8Sy442XntaxUHa4$TGl+ZyACe7Y1Kb+3DFxc5cXOnbrl4KpA3Ybv6s13jE4=",
+            "date_of_birth": "1998-05-05",
+            "hobbies": ["6", "7"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 20,
+        "fields": {
+            "email": "user20@example.com",
+            "username": "twentiethuser",
+            "first_name": "Tina",
+            "last_name": "Turner",
+            "password": "pbkdf2_sha256$870000$96BE7NZgWcOo6XpaWWWgn2$hdVCcT0TXPkr89wAT6pgc6lw/DGwU4RLus0hKg7C6GQ=",
+            "date_of_birth": "1999-05-05",
+            "hobbies": ["3", "4", "5", "9"],
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": false,
+            "date_joined": "2025-01-01T00:00:00Z",
+            "last_login": "2025-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 1,
+        "fields": {
+            "hobby": "Reading"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 2,
+        "fields": {
+            "hobby": "Hiking"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 3,
+        "fields": {
+            "hobby": "Gardening"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 4,
+        "fields": {
+            "hobby": "Cooking"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 5,
+        "fields": {
+            "hobby": "Painting"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 6,
+        "fields": {
+            "hobby": "Photography"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 7,
+        "fields": {
+            "hobby": "Knitting"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 8,
+        "fields": {
+            "hobby": "Cycling"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 9,
+        "fields": {
+            "hobby": "Yoga"
+        }
+    },
+    {
+        "model": "api.hobbies",
+        "pk": 10,
+        "fields": {
+            "hobby": "Chess"
+        }
+    }    
+]
