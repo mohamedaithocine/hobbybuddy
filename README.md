@@ -1,4 +1,4 @@
-# **HobbyBuddy**
+ # **HobbyBuddy**
 
 
 The Hobbies Web App is a single-page application (SPA) that allows users to:
@@ -27,7 +27,7 @@ The Hobbies Web App is a single-page application (SPA) that allows users to:
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/mohamedaithocine/hobbybuddy
    ```
 2. Set up the environment:
    ```bash
